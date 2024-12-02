@@ -1,0 +1,21 @@
+:root {
+  --background-color: #d5e0ee;
+  --heading-color: #1d2d43;
+  --text-color: #898e95;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
