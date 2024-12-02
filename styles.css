@@ -20,7 +20,7 @@ body {
   flex-direction: column;
 }
 main {
-  width: 35%;
+  width: 15%;
   height: 55%;
   background-color: #ffffff;
   padding: 15px;
@@ -44,6 +44,25 @@ p {
   margin-top: 10%;
   color: var(--text-color);
   text-align: center;
+}
+
+@media (max-width: 1660px) {
+  main {
+    width: 20%;
+  }
+}
+
+@media (max-width: 1400px) {
+  main {
+    width: 30%;
+    height: 65%;
+  }
+}
+
+@media (max-width: 1200px) {
+  main {
+    width: 30%;
+  }
 }
 
 @media (max-width: 900px) {
